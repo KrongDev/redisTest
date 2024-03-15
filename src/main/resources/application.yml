@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: redisTest
+  config:
+    activate:
+      on-profile: default
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+server:
+  port: 8080
